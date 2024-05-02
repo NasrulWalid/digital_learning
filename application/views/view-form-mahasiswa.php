@@ -88,7 +88,8 @@ method="post">
                 <tr>
                     <td colspan="3" align="center">
                         <input type="submit" class="tombolsubmit" value="Submit"><br><br>
-                        <button type="reset" class="tombolreset" value="reset">Hapus</button>
+                        <button type="reset" class="tombolreset" value="reset">Hapus</button><br><br>
+                        <a href="<?= base_url('login/index');?>">Kembali</a>
                     </td>
                     
 
@@ -102,6 +103,18 @@ method="post">
 
 </html>
 <style>
+
+a {
+	background: #8644A2;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 10px;
+	padding: 5px 20px;
+    text-decoration: none;
+}
+
 body{
 	font-family: sans-serif;
 	background: #d5f0f3;
@@ -120,7 +133,7 @@ h1{
 	background: white;
 	/*meletakkan form ke tengah*/
 	margin: 80px auto;
-	padding: 30px 20px;
+	padding: 20px 10px;
     border-radius: 10px;
 }
 
